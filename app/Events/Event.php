@@ -1,4 +1,4 @@
-<?php namespace App\Events;
+<?php namespace UsoDeRenderSectionsL5\Events;
 
 abstract class Event {
 

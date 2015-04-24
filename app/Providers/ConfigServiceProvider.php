@@ -1,4 +1,4 @@
-<?php namespace App\Providers;
+<?php namespace UsoDeRenderSectionsL5\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
