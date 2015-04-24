@@ -1,4 +1,4 @@
-<?php namespace App\Http\Controllers;
+<?php namespace UsoDeRenderSectionsL5\Http\Controllers;
 
 class WelcomeController extends Controller {
 
@@ -30,7 +30,7 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('welcome');
+		return view('renderSections');
 	}
 
 }
