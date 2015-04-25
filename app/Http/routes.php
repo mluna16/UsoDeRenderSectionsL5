@@ -12,8 +12,8 @@
 */
 
 Route::get('/', 'ImageController@index');
-
-Route::get('home', 'HomeController@index');
+Route::post('CreateImage','ImageController@store');
+Route::resource('images','ImageController');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
