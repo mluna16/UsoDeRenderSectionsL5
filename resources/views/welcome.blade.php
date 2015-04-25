@@ -21,10 +21,16 @@
 	<body>
     <div class="container">
         <div class="page-header">
-            <h1>Sticky footer ()</h1>
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>renderSections()</h1>
+                </div>
+                <div class="col-md-4">
+                    <a class="btn btn-primary pull-right addImage" href="#" role="button">Agregar Imagen</a>
+                </div>
+            </div>
         </div>
-
-        <div>
+        <div id="principalPanel">
             @section('contentPanel')
 
             @show
@@ -32,5 +38,6 @@
     </div>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="{{asset('js/functions.js')}}"></script>
 	</body>
 </html>
